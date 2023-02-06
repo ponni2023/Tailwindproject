@@ -1,0 +1,27 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import url(https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css);
+
+body {
+  font-family: "Apple Chancery";
+  /* font-family: "Arial"; */
+  /* font-family: "Bradley Hand"; */
+  /* font-family: "Century Gothic"; */
+}
+
+label {
+  display: block;
+  float: right;
+  cursor: pointer;
+}
+label .close-btn {
+  display: none;
+}
+label .menu-btn {
+  position: relative;
+}
+button {
+  font-weight: bold;
+}
